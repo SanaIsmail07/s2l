@@ -865,3 +865,31 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+.coming-soon {
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countdown {
+    display: flex;
+    justify-content: space-around;
+}
+.day, .hour, .minute, .second {
+    font-size: 3rem;
+}
+
+@media(max-width:600px) {
+    .countdown h3{
+        font-size: 1rem;
+    }
+    
+    .countdown .day,.countdown .hour,.countdown .minute,.countdown .second {
+    font-size: 2rem;
+}
+}
