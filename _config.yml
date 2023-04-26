@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: HEWWO
+logo: Hewwo-Logo
 email: support@hewwo.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -56,39 +57,18 @@ plugins:
 
 
 # Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+geturl:
+- name: App Store
+  pic: app-store
+  url: 
+  height: 100
+  width: 100
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+- name: Play Store
+  pic: play-store
+  url: 
+  height: 100
+  width: 100
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

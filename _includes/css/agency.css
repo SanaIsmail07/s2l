@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/hewwo-header-bg-1.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -632,23 +632,23 @@ section h3.section-subheading {
     }
 }
 
-.team-member {
+.get-app {
     margin-bottom: 50px;
     text-align: center;
 }
 
-.team-member img {
+.get-app img {
     margin: 0 auto;
     border: 7px solid #fff;
 }
 
-.team-member h4 {
+.get-app h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
 }
 
-.team-member p {
+.get-app p {
     margin-top: 0;
 }
 
